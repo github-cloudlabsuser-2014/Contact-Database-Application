@@ -82,7 +82,7 @@ namespace CRUD_application_2.Controllers
             }
             return View(user);
         }
-
+        
         // POST: User/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
